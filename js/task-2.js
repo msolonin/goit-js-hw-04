@@ -5,9 +5,9 @@ function calcAverageCalories(days) {
     }
     // its not possible divide by zero, need additional verification
     if (days.length !== 0){
-        return sum / days.length
+        return sum / days.length;
     }else{
-        return 0
+        return 0;
     }
 }
 
