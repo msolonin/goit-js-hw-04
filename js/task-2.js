@@ -1,6 +1,6 @@
 function calcAverageCalories(days) {
     let sum = 0;
-    for (value of days){
+    for (let value of days){
         sum += value.calories;
     }
     // its not possible divide by zero, need additional verification
